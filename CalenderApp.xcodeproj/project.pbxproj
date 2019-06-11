@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A91F8C92F2BF627C7444DFA /* Pods_CalenderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE4BDCC7FB971B89D3755C4 /* Pods_CalenderApp.framework */; };
 		CE07D8CD229FB14A00D5BAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8CC229FB14A00D5BAFB /* AppDelegate.swift */; };
 		CE07D8CF229FB14A00D5BAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8CE229FB14A00D5BAFB /* ViewController.swift */; };
 		CE07D8D2229FB14A00D5BAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE07D8D0229FB14A00D5BAFB /* Main.storyboard */; };
 		CE07D8D4229FB14D00D5BAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE07D8D3229FB14D00D5BAFB /* Assets.xcassets */; };
 		CE07D8D7229FB14D00D5BAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE07D8D5229FB14D00D5BAFB /* LaunchScreen.storyboard */; };
+		CE07D8DF22A8E98200D5BAFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE07D8DE22A8E98200D5BAFB /* GoogleService-Info.plist */; };
+		CE07D8E122ACD5A200D5BAFB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8E022ACD5A200D5BAFB /* LoginViewController.swift */; };
+		CE07D8E322ADFDF800D5BAFB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8E222ADFDF800D5BAFB /* HomeViewController.swift */; };
+		CE07D8E522ADFE0C00D5BAFB /* ArtistSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8E422ADFE0C00D5BAFB /* ArtistSearchViewController.swift */; };
+		CE07D8E722ADFE1600D5BAFB /* ArtistListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8E622ADFE1600D5BAFB /* ArtistListViewController.swift */; };
+		CE07D8E922ADFE2000D5BAFB /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8E822ADFE2000D5BAFB /* ArtistViewController.swift */; };
+		CE07D8EB22ADFE2C00D5BAFB /* LiveSearchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8EA22ADFE2C00D5BAFB /* LiveSearchListViewController.swift */; };
+		CE07D8ED22ADFE3A00D5BAFB /* LiveSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8EC22ADFE3A00D5BAFB /* LiveSearchViewController.swift */; };
+		CE07D8EF22ADFE4300D5BAFB /* LiveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8EE22ADFE4300D5BAFB /* LiveListViewController.swift */; };
+		CE07D8F122ADFE4C00D5BAFB /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8F022ADFE4C00D5BAFB /* LiveViewController.swift */; };
+		CE07D8F322ADFE5A00D5BAFB /* LiveHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8F222ADFE5A00D5BAFB /* LiveHouseViewController.swift */; };
+		CE07D8F522ADFE6700D5BAFB /* A_HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8F422ADFE6700D5BAFB /* A_HomeViewController.swift */; };
+		CE07D8F722ADFE7700D5BAFB /* A_InfomationLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8F622ADFE7700D5BAFB /* A_InfomationLiveViewController.swift */; };
+		CE07D8F922ADFE8500D5BAFB /* A_InfomationArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8F822ADFE8500D5BAFB /* A_InfomationArtistViewController.swift */; };
+		CE07D8FB22ADFE9100D5BAFB /* A_InfomationLiveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8FA22ADFE9100D5BAFB /* A_InfomationLiveListViewController.swift */; };
+		CE07D8FD22ADFEA300D5BAFB /* A_SearchLiveHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8FC22ADFEA300D5BAFB /* A_SearchLiveHouseViewController.swift */; };
+		CE07D8FF22ADFEB000D5BAFB /* A_ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D8FE22ADFEB000D5BAFB /* A_ReservationViewController.swift */; };
+		CE07D90122ADFEBA00D5BAFB /* A_RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D90022ADFEBA00D5BAFB /* A_RequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FE4BDCC7FB971B89D3755C4 /* Pods_CalenderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalenderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE07D8C9229FB14A00D5BAFB /* CalenderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalenderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE07D8CC229FB14A00D5BAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE07D8CE229FB14A00D5BAFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,26 @@
 		CE07D8D3229FB14D00D5BAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE07D8D6229FB14D00D5BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE07D8D8229FB14D00D5BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE07D8DE22A8E98200D5BAFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE07D8E022ACD5A200D5BAFB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE07D8E222ADFDF800D5BAFB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CE07D8E422ADFE0C00D5BAFB /* ArtistSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearchViewController.swift; sourceTree = "<group>"; };
+		CE07D8E622ADFE1600D5BAFB /* ArtistListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListViewController.swift; sourceTree = "<group>"; };
+		CE07D8E822ADFE2000D5BAFB /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		CE07D8EA22ADFE2C00D5BAFB /* LiveSearchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSearchListViewController.swift; sourceTree = "<group>"; };
+		CE07D8EC22ADFE3A00D5BAFB /* LiveSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSearchViewController.swift; sourceTree = "<group>"; };
+		CE07D8EE22ADFE4300D5BAFB /* LiveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveListViewController.swift; sourceTree = "<group>"; };
+		CE07D8F022ADFE4C00D5BAFB /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		CE07D8F222ADFE5A00D5BAFB /* LiveHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveHouseViewController.swift; sourceTree = "<group>"; };
+		CE07D8F422ADFE6700D5BAFB /* A_HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_HomeViewController.swift; sourceTree = "<group>"; };
+		CE07D8F622ADFE7700D5BAFB /* A_InfomationLiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_InfomationLiveViewController.swift; sourceTree = "<group>"; };
+		CE07D8F822ADFE8500D5BAFB /* A_InfomationArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_InfomationArtistViewController.swift; sourceTree = "<group>"; };
+		CE07D8FA22ADFE9100D5BAFB /* A_InfomationLiveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_InfomationLiveListViewController.swift; sourceTree = "<group>"; };
+		CE07D8FC22ADFEA300D5BAFB /* A_SearchLiveHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_SearchLiveHouseViewController.swift; sourceTree = "<group>"; };
+		CE07D8FE22ADFEB000D5BAFB /* A_ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_ReservationViewController.swift; sourceTree = "<group>"; };
+		CE07D90022ADFEBA00D5BAFB /* A_RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_RequestViewController.swift; sourceTree = "<group>"; };
+		D3358CA0A65338857E8F1A50 /* Pods-CalenderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalenderApp.release.xcconfig"; path = "Target Support Files/Pods-CalenderApp/Pods-CalenderApp.release.xcconfig"; sourceTree = "<group>"; };
+		DE40504940CDC67384BC8FC1 /* Pods-CalenderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalenderApp.debug.xcconfig"; path = "Target Support Files/Pods-CalenderApp/Pods-CalenderApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A91F8C92F2BF627C7444DFA /* Pods_CalenderApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68202F1CD923C284C16F8AAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FE4BDCC7FB971B89D3755C4 /* Pods_CalenderApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		997344FAA3546D6F00B0D668 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE40504940CDC67384BC8FC1 /* Pods-CalenderApp.debug.xcconfig */,
+				D3358CA0A65338857E8F1A50 /* Pods-CalenderApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE07D8C0229FB14A00D5BAFB = {
 			isa = PBXGroup;
 			children = (
 				CE07D8CB229FB14A00D5BAFB /* CalenderApp */,
 				CE07D8CA229FB14A00D5BAFB /* Products */,
+				997344FAA3546D6F00B0D668 /* Pods */,
+				68202F1CD923C284C16F8AAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +116,27 @@
 			children = (
 				CE07D8CC229FB14A00D5BAFB /* AppDelegate.swift */,
 				CE07D8CE229FB14A00D5BAFB /* ViewController.swift */,
+				CE07D8E022ACD5A200D5BAFB /* LoginViewController.swift */,
 				CE07D8D0229FB14A00D5BAFB /* Main.storyboard */,
+				CE07D8E222ADFDF800D5BAFB /* HomeViewController.swift */,
+				CE07D8E422ADFE0C00D5BAFB /* ArtistSearchViewController.swift */,
+				CE07D8E622ADFE1600D5BAFB /* ArtistListViewController.swift */,
+				CE07D8E822ADFE2000D5BAFB /* ArtistViewController.swift */,
+				CE07D8EA22ADFE2C00D5BAFB /* LiveSearchListViewController.swift */,
+				CE07D8EC22ADFE3A00D5BAFB /* LiveSearchViewController.swift */,
+				CE07D8EE22ADFE4300D5BAFB /* LiveListViewController.swift */,
+				CE07D8F022ADFE4C00D5BAFB /* LiveViewController.swift */,
+				CE07D8F222ADFE5A00D5BAFB /* LiveHouseViewController.swift */,
+				CE07D8F422ADFE6700D5BAFB /* A_HomeViewController.swift */,
+				CE07D8F622ADFE7700D5BAFB /* A_InfomationLiveViewController.swift */,
+				CE07D8F822ADFE8500D5BAFB /* A_InfomationArtistViewController.swift */,
+				CE07D8FA22ADFE9100D5BAFB /* A_InfomationLiveListViewController.swift */,
+				CE07D8FC22ADFEA300D5BAFB /* A_SearchLiveHouseViewController.swift */,
+				CE07D8FE22ADFEB000D5BAFB /* A_ReservationViewController.swift */,
+				CE07D90022ADFEBA00D5BAFB /* A_RequestViewController.swift */,
 				CE07D8D3229FB14D00D5BAFB /* Assets.xcassets */,
 				CE07D8D5229FB14D00D5BAFB /* LaunchScreen.storyboard */,
+				CE07D8DE22A8E98200D5BAFB /* GoogleService-Info.plist */,
 				CE07D8D8229FB14D00D5BAFB /* Info.plist */,
 			);
 			path = CalenderApp;
@@ -71,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE07D8DB229FB14D00D5BAFB /* Build configuration list for PBXNativeTarget "CalenderApp" */;
 			buildPhases = (
+				73CA88C3C66D8C6A84ABD597 /* [CP] Check Pods Manifest.lock */,
 				CE07D8C5229FB14A00D5BAFB /* Sources */,
 				CE07D8C6229FB14A00D5BAFB /* Frameworks */,
 				CE07D8C7229FB14A00D5BAFB /* Resources */,
+				11D1188990262EF3395BB72D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE07D8DF22A8E98200D5BAFB /* GoogleService-Info.plist in Resources */,
 				CE07D8D7229FB14D00D5BAFB /* LaunchScreen.storyboard in Resources */,
 				CE07D8D4229FB14D00D5BAFB /* Assets.xcassets in Resources */,
 				CE07D8D2229FB14A00D5BAFB /* Main.storyboard in Resources */,
@@ -130,13 +211,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11D1188990262EF3395BB72D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalenderApp/Pods-CalenderApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CLImageEditor/CLImageEditor.framework",
+				"${BUILT_PRODUCTS_DIR}/CalculateCalendarLogic/CalculateCalendarLogic.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController/ESTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLImageEditor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalculateCalendarLogic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalenderApp/Pods-CalenderApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73CA88C3C66D8C6A84ABD597 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalenderApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE07D8C5229FB14A00D5BAFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE07D8E122ACD5A200D5BAFB /* LoginViewController.swift in Sources */,
+				CE07D8FF22ADFEB000D5BAFB /* A_ReservationViewController.swift in Sources */,
 				CE07D8CF229FB14A00D5BAFB /* ViewController.swift in Sources */,
+				CE07D8FD22ADFEA300D5BAFB /* A_SearchLiveHouseViewController.swift in Sources */,
+				CE07D8FB22ADFE9100D5BAFB /* A_InfomationLiveListViewController.swift in Sources */,
 				CE07D8CD229FB14A00D5BAFB /* AppDelegate.swift in Sources */,
+				CE07D8E922ADFE2000D5BAFB /* ArtistViewController.swift in Sources */,
+				CE07D8E322ADFDF800D5BAFB /* HomeViewController.swift in Sources */,
+				CE07D8ED22ADFE3A00D5BAFB /* LiveSearchViewController.swift in Sources */,
+				CE07D8F922ADFE8500D5BAFB /* A_InfomationArtistViewController.swift in Sources */,
+				CE07D8EF22ADFE4300D5BAFB /* LiveListViewController.swift in Sources */,
+				CE07D8F322ADFE5A00D5BAFB /* LiveHouseViewController.swift in Sources */,
+				CE07D8E522ADFE0C00D5BAFB /* ArtistSearchViewController.swift in Sources */,
+				CE07D8EB22ADFE2C00D5BAFB /* LiveSearchListViewController.swift in Sources */,
+				CE07D8F522ADFE6700D5BAFB /* A_HomeViewController.swift in Sources */,
+				CE07D8E722ADFE1600D5BAFB /* ArtistListViewController.swift in Sources */,
+				CE07D8F722ADFE7700D5BAFB /* A_InfomationLiveViewController.swift in Sources */,
+				CE07D90122ADFEBA00D5BAFB /* A_RequestViewController.swift in Sources */,
+				CE07D8F122ADFE4C00D5BAFB /* LiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +441,7 @@
 		};
 		CE07D8DC229FB14D00D5BAFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE40504940CDC67384BC8FC1 /* Pods-CalenderApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +460,7 @@
 		};
 		CE07D8DD229FB14D00D5BAFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3358CA0A65338857E8F1A50 /* Pods-CalenderApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
